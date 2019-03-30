@@ -5,8 +5,14 @@ from math import floor
 if __name__ == '__main__':
     num_predicate = int(input("number of total predicates: "))
 
+    num_bug_predicates = int(input("number of buggy predicate: "))
 
-    bug_predicates = set(map(int, input("bug predicates: ").split()))
+    bug_predicates = set()
+
+    while len(bug_predicates) < num_bug_predicates:
+        bg = randint(1, num_predicate)
+        bug_predicates.add(bg)
+
     bug_predicate_list = list(bug_predicates)
 
     num_test_case = int(input("number of test case: "))
@@ -15,7 +21,7 @@ if __name__ == '__main__':
 
     result_data = []
 
-    bug_case_proportion = randint(5, 8) / 10
+    bug_case_proportion = randint(6, 8) / 10
 
     num_bug_case = floor(bug_case_proportion * num_test_case)
     num_correct_case = num_test_case - num_bug_case
@@ -28,7 +34,12 @@ if __name__ == '__main__':
             if i + 1 == must_bug:
                 row.append(1)
             else:
-                row.append(randint(0, 1))
+                rnd = randint(0, 2)
+
+                if rnd != 2:
+                    row.append(1)
+                else:
+                    row.append(0)
 
         row.append(-1)
         result_data.append(row)
