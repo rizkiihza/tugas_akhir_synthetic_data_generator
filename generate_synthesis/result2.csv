@@ -1,4 +1,4 @@
-No,config,filename,Number of Predicate,Accuracy,Time,Memory
+No,config,filename,Number of predicate,Accuracy,Time,Memory
 0,"k = 25, dslimit = 0.010000, sizeLimit = 2",generated_data/data_31.txt,598,0.675676,102066,155837888
 1,"k = 25, dslimit = 0.010000, sizeLimit = 2",generated_data/data_32.txt,1024,0.928571,544931,155291144
 2,"k = 25, dslimit = 0.010000, sizeLimit = 2",generated_data/data_33.txt,233,0.710526,6134,155935744
