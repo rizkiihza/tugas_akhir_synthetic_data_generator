@@ -1,0 +1,8 @@
+,config,filename,Number of predicate,Accuracy,Time,Memory
+0,"k = 25, dslimit = 0.010000, sizeLimit = 3",generated_data/data_1.txt,20,0.562500,250,48232448
+1,"k = 25, dslimit = 0.010000, sizeLimit = 3",generated_data/data_2.txt,30,0.609756,579,154140672
+2,"k = 25, dslimit = 0.010000, sizeLimit = 3",generated_data/data_3.txt,50,0.642857,1411,832879064
+3,"k = 25, dslimit = 0.010000, sizeLimit = 3",generated_data/data_4.txt,100,0.866667,12255,2571703880
+4,"k = 25, dslimit = 0.010000, sizeLimit = 3",generated_data/data_5.txt,30,0.613636,372,147849216
+5,"k = 25, dslimit = 0.010000, sizeLimit = 3",generated_data/data_6.txt,40,0.794118,901,371681248
+6,"k = 25, dslimit = 0.010000, sizeLimit = 3",generated_data/data_9.txt,70,0.756757,3581,1140811256
